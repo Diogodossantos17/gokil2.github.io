@@ -29,6 +29,10 @@ header{
 
 }
 
+li{
+    list-style-type: none;
+}
+
 menu li, a{
     margin: 5px;
     display: inline;
@@ -39,28 +43,57 @@ menu li, a{
 main{
     background-color: white;
     padding: 40px;
-    height: 100vh;
+    height: 220vh;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.26);
-    background-image: url('imagens/architecture-nature-merge-modern-design-generative-ai.jpg');
+    background-image: url('imagens/projecto\ de\ Arquitectura\ no\ papel.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 
 }
 
+
+
 main> section{
+    border-radius: 10px;
     background-color: white;
     padding: 100px;
     
 }
 
+section#second{
+    border-radius: 10px;
+    padding: 100px;
+    margin-top: 20px;
+}
+
+section#third{
+    border-radius: 10px;
+    padding: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section#fourth{
+    border-radius: 10px;
+    padding: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 
 footer{
-    background-color: white;
-    padding: 10px;
+    position: relative;
+    background-color: rgb(62, 20, 166);
+    padding: 45px;
+    margin-top: -25px;
     text-align: center;
     font-size: 1.2em;
     color: rgb(11, 205, 140);
+
+    top: 20px;
 }
 
 a{

@@ -6,7 +6,7 @@
     <title>Gokil</title>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
 </head>
 
 
@@ -17,24 +17,82 @@
                 <li><a href="#">Projectos</a></li>
                 <li><a href="#">Consultoria</a></li>
                 <li><a href="#">Orçamentos</a></li>
+                <li>
+                    <a href="#">Contactos</a>
+                </li>
+
             </ul>
         </menu>
     </header>
 
 
     <main>
-        <section id="first">
+        <section id="first" onmouseenter="trocar1()" onmouseout="trocar2()">
             <h2>Arquitecura</h2>
+            <article>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas quod, amet saepe rem quae, officia libero dolores, exercitationem ipsa sed. Quo quibusdam ex ipsam saepe, deserunt dicta voluptatem cum.</p>
+            </article>
+
+            <div></div>
+            <div></div>
+        </section>
+
+        <section id="second">
+            <h3>Projectos</h3>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ducimus cumque blanditiis ullam fugiat ut facere, quis labore dolor, optio ex expedita praesentium necessitatibus adipisci, nisi voluptate. Dolores, nobis facilis?</p>
+            </article>
+
+            <div></div>
+            <div></div>
+        </section>
+
+        <section id="third">
+            <h4>Consultoria</h4>
 
             <article>
-               
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatem dolorem officiis adipisci, distinctio reiciendis praesentium ducimus minima accusantium ipsum rem recusandae, omnis dolorum, tempora autem error repellendus sint culpa!</p>
             </article>
+
+            <div></div>
+            <div></div>
+        </section>
+
+        <section id="fourth">
+            <h5>Orçamentos</h5>
+            <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maiores doloremque iure beatae esse dolor, natus error praesentium obcaecati qui deserunt dolores dolorem aperiam incidunt est odit quae cum ab.</p>
+            </article>
+
+            <div></div>
+            <div></div>
         </section>
     </main>
 
     
 
- <footer>Powered By:. <a href="https://github.com/diogodossantos17" target="_blank">Diogo dos Santos</a ></footer>
+ <footer>Powered By:. &copy;<a href="https://github.com/diogodossantos17" target="_blank">Diogo dos Santos</a ></footer>
+
+
+    <script>
+        function trocar1(){
+            var primeiroSec = window.document.getElementById('first')
+            primeiroSec.style.background = 'rgb(62, 20, 166)'
+
+            primeiroSec.style.color = 'white'
+
+           
+        }
+
+        function trocar2(){
+            var segundoSec = window.document.getElementById('first')
+            segundoSec.addEventListener('mouseout', trocar2)
+
+            segundoSec.style.background = 'white'
+
+            segundoSec.style.color = 'black'
+        }
+    </script>
 
             
 </body>
