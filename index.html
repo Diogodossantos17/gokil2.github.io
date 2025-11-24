@@ -7,6 +7,8 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" media="all">
+
+    <script src="../gokil2/scriptgokil/gokil.js"></script>
 </head>
 
 
@@ -28,9 +30,13 @@
 
     <main>
         <section id="first" onmouseenter="trocar1()" onmouseout="trocar2()">
-            <h2>Arquitecura</h2>
+            <h2>Sobre Nós</h2>
             <article>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas quod, amet saepe rem quae, officia libero dolores, exercitationem ipsa sed. Quo quibusdam ex ipsam saepe, deserunt dicta voluptatem cum.</p>
+               <p>Onde a visão encontra a realidade . Somos um estúdio de arquitetura dedicado a transformar espaços e redefinir o viver. Acreditamos que a inovação e o design funcional devem andar de mãos dadas com a sustentabilidade. Desde 2022, a Gokil combina expertise técnica com uma abordagem criativa e audaciosa, entregando projetos que não apenas atendem, mas superam as expectativas. Seu futuro começa no design que criamos hoje.</p>
+
+               <picture>
+                <source media="(min-width: 320px)" srcset="imagens/Engenheira Civil alterado.jpg">
+                <img src="imagens/Engenheira Civil alterado.jpg" alt="Engenheira Cívil."></picture>
             </article>
 
             <div></div>
@@ -71,29 +77,7 @@
 
     
 
- <footer>Powered By:. &copy;<a href="https://github.com/diogodossantos17" target="_blank">Diogo dos Santos</a ></footer>
-
-
-    <script>
-        function trocar1(){
-            var primeiroSec = window.document.getElementById('first')
-            primeiroSec.style.background = 'rgb(62, 20, 166)'
-
-            primeiroSec.style.color = 'white'
-
-           
-        }
-
-        function trocar2(){
-            var segundoSec = window.document.getElementById('first')
-            segundoSec.addEventListener('mouseout', trocar2)
-
-            segundoSec.style.background = 'white'
-
-            segundoSec.style.color = 'black'
-        }
-    </script>
-
-            
+ <footer>&copy; Gokil 2025</footer>
+     
 </body>
 </html>

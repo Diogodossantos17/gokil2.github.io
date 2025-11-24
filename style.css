@@ -29,6 +29,10 @@ header{
 
 }
 
+article, img{
+    width: 100%;
+}
+
 li{
     list-style-type: none;
 }
@@ -49,6 +53,13 @@ main{
     background-size: cover;
     background-attachment: fixed;
 
+}
+
+main, p{
+    text-align: justify;
+    display: block;
+    margin: auto;
+    font-size: 1.2em
 }
 
 
