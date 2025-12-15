@@ -39,13 +39,21 @@ header{
 }
 
 menu >ul >li{
-    padding: 0px;
+    padding: 4px;
     margin: 1px;
     background-color: rgb(9, 44, 44);
-    border-radius: 10px;
+    border-radius: 1px;
     text-align: center;
 }
 
+
+ul.itens{
+    flex-direction: row-reverse;
+}
+
+li.itens{
+    flex: auto;
+}
 menu>ul> li{
     list-style-type: none;
 }

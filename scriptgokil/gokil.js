@@ -1,7 +1,7 @@
 
 function clickme(){
 
-    var itens = window.document.getElementById('itens')
+    const itens = window.document.getElementById('itens')
 
     if(itens.style.display == 'block'){
 
