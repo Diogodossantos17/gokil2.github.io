@@ -7,11 +7,13 @@
         display: none;
     }
     menu{
-        display: block;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     menu>ul>li{
         display: inline-block;
+        flex: auto;
     }
     
 }
@@ -23,11 +25,13 @@
         display: none;
     }
     menu{
-        display: block;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     menu>ul>li{
         display:inline-block;
+        flex: auto;
     }
     
 }
@@ -37,12 +41,14 @@
     span#burguer{
         display: none;
     }
-    menu{
-        display: block;
+    menu.conteiner{
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     menu>ul>li{
         display: inline-block;
+        flex: auto;
     }
     
 }

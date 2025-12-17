@@ -21,7 +21,6 @@
 }
 
 
-
 body{
     background-image: url(../imagens/Edifício\ Futurista.jpg);
     background-size: cover;
@@ -95,7 +94,7 @@ section#first{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
-    color: rgb(93, 207, 201);
+    color: rgb(0, 0, 0);
     height: 50vh;
     padding: 10px;
     margin: 20px;
