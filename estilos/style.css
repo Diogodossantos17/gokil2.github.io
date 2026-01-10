@@ -74,9 +74,10 @@ li>a:hover{
     color:aqua;
 }
 
-menu{
-    display: none;
+menu.conteiner{
+    display:none
 }
+
 
 span#burguer{
     background-color: rgb(9, 44, 44);
